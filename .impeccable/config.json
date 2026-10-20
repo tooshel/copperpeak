@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-20T04:33:10.515Z",
+        "reason": "Copper Peak brand sheet provided by the owner is desert sand/sunset; cream ground sampled from that pinned palette"
+      }
+    ]
+  }
+}
