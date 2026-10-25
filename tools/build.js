@@ -65,6 +65,7 @@ const STYLE = `
 }
 * { box-sizing:border-box; }
 html { scroll-behavior:smooth; }
+[id] { scroll-margin-top:120px; }
 body { margin:0; font:17px/1.6 -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; color:var(--ink); background:var(--cream); }
 img { max-width:100%; height:auto; }
 a { color:var(--blue); }
