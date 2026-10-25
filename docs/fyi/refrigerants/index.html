@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AC Refrigerants in 2026: R-22, R-410A &amp; the New A2L Systems Explained | Copper Peak Heating &amp; Cooling</title>
+<meta name="description" content="Which refrigerant does your AC use, and what do the 2025–2026 EPA changes mean for repairs and replacement in Arizona? R-22, R-410A, R-454B, R-32, the AIM Act phasedown, and what's next.">
+<link rel="canonical" href="https://www.copperpeakair.com/fyi/refrigerants/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Copper Peak Heating &amp; Cooling">
+<meta property="og:title" content="AC Refrigerants in 2026: R-22, R-410A &amp; the New A2L Systems Explained | Copper Peak Heating &amp; Cooling">
+<meta property="og:description" content="Which refrigerant does your AC use, and what do the 2025–2026 EPA changes mean for repairs and replacement in Arizona? R-22, R-410A, R-454B, R-32, the AIM Act phasedown, and what's next.">
+<meta property="og:url" content="https://www.copperpeakair.com/fyi/refrigerants/">
+<meta property="og:image" content="https://www.copperpeakair.com/images/copper-peak-logo-2026.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<style>
+:root {
+  --copper:#c2561a; --copper-bright:#e8762b; --amber:#f5a623;
+  --blue:#1769aa; --navy:#16365c; --ink:#22303f; --soft:#5d6b7a;
+  --cream:#fdf7ef; --sand:#f7e9d7; --line:#ecdcc6;
+  color-scheme: light;
+}
+* { box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body { margin:0; font:17px/1.6 -apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif; color:var(--ink); background:var(--cream); }
+img { max-width:100%; height:auto; }
+a { color:var(--blue); }
+a:hover { color:var(--copper); }
+:focus-visible { outline:2px solid var(--copper); outline-offset:2px; }
+
+/* header */
+.site-head { position:sticky; top:0; z-index:10; }
+.topbar { background:var(--navy); color:#fff; display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between;
+  gap:8px 16px; padding:10px clamp(16px,4vw,40px); }
+.topbar .brand { font-weight:800; letter-spacing:.02em; font-size:1.02rem; color:#fff; text-decoration:none; }
+.topbar .brand span { color:var(--amber); }
+.topbar .reach { display:flex; flex-wrap:wrap; align-items:center; gap:6px 16px; }
+.topbar a.mail { color:#dbe6f2; text-decoration:none; font-size:.95rem; }
+.topbar a.mail:hover { color:#fff; text-decoration:underline; }
+.topbar a.call { background:var(--copper); color:#fff; text-decoration:none; font-weight:700; padding:8px 18px;
+  border-radius:999px; white-space:nowrap; transition:background .15s ease-out; }
+.topbar a.call:hover { background:#a84512; color:#fff; }
+nav.main { background:#fff; border-bottom:1px solid var(--line); padding:0 clamp(16px,4vw,40px);
+  display:flex; gap:4px 22px; overflow-x:auto; white-space:nowrap; scrollbar-width:none; }
+nav.main a { color:var(--navy); text-decoration:none; font-weight:600; font-size:.95rem; padding:11px 0;
+  border-bottom:3px solid transparent; }
+nav.main a:hover { color:var(--copper); }
+nav.main a[aria-current] { border-bottom-color:var(--copper); color:var(--copper); }
+
+/* home hero */
+.hero { background:radial-gradient(900px 400px at 75% -80px, rgba(245,166,35,.35), transparent 70%),
+    linear-gradient(180deg,#fbe8cd 0%,var(--cream) 78%);
+  border-bottom:1px solid var(--line); padding:clamp(28px,6vw,64px) clamp(16px,4vw,40px) clamp(32px,5vw,56px); }
+.hero-inner { max-width:1020px; margin:0 auto; display:grid; grid-template-columns:minmax(280px,460px) 1fr;
+  gap:clamp(24px,4vw,56px); align-items:center; }
+.hero img { width:100%; height:auto; mix-blend-mode:multiply; }
+.hero h1 { font-size:clamp(1.7rem,3.6vw,2.5rem); line-height:1.15; margin:0 0 .5rem; color:var(--navy); letter-spacing:-0.015em; }
+.hero h1 em { font-style:normal; color:var(--copper); }
+.hero p.lead { font-size:1.08rem; color:#46535f; margin:0 0 1.6rem; max-width:46ch; }
+.hero .assurance { margin:1.1rem 0 0; font-size:.92rem; color:#46535f; }
+
+/* inner page band */
+.page-head { background:linear-gradient(180deg,#fbe8cd 0%,var(--cream) 100%); border-bottom:1px solid var(--line);
+  padding:clamp(28px,5vw,52px) clamp(16px,4vw,40px) clamp(24px,4vw,40px); }
+.page-head h1 { color:var(--navy); font-size:clamp(1.7rem,3.4vw,2.4rem); line-height:1.15; margin:0 0 .5rem; letter-spacing:-0.015em; max-width:28ch; }
+.page-head p.lead { margin:0; font-size:1.08rem; color:#46535f; max-width:60ch; }
+.page-head .meta { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 .9rem; padding:0; list-style:none; }
+.page-head .meta li, .card .level { font-size:.82rem; font-weight:700; color:var(--navy); background:#fff;
+  border:1px solid var(--line); border-radius:999px; padding:3px 11px; }
+.crumbs { font-size:.88rem; margin:0 0 .7rem; color:var(--soft); }
+.crumbs a { color:var(--soft); }
+
+.cta-row { display:flex; flex-wrap:wrap; gap:12px; align-items:center; }
+.btn { display:inline-block; text-decoration:none; font-weight:700; border-radius:10px; padding:14px 26px;
+  transition:transform .12s ease-out, background .15s ease-out; }
+.btn-primary { background:var(--copper); color:#fff; font-size:1.08rem; }
+.btn-primary:hover { background:#a84512; color:#fff; transform:translateY(-1px); }
+.btn-ghost { color:var(--blue); border:1.5px solid var(--blue); background:transparent; }
+.btn-ghost:hover { background:rgba(23,105,170,.07); }
+
+section { padding:clamp(36px,6vw,64px) clamp(16px,4vw,40px); }
+.measure { max-width:1020px; margin:0 auto; }
+h2 { color:var(--navy); font-size:clamp(1.35rem,2.6vw,1.7rem); letter-spacing:-0.01em; margin:0 0 1.1rem; }
+h3 { color:var(--navy); }
+
+/* prose for service pages and articles */
+.prose { max-width:70ch; }
+.prose h2 { margin-top:2.4rem; }
+.prose h2:first-child { margin-top:0; }
+.prose h3 { font-size:1.12rem; margin:1.8rem 0 .5rem; }
+.prose p, .prose li { color:var(--ink); }
+.prose ul, .prose ol { padding-left:1.3rem; }
+.prose li { margin:.35rem 0; }
+.prose ol.steps { counter-reset:step; list-style:none; padding-left:0; }
+.prose ol.steps > li { counter-increment:step; position:relative; padding-left:2.6rem; margin:1rem 0; }
+.prose ol.steps > li::before { content:counter(step); position:absolute; left:0; top:-.05rem; width:1.85rem; height:1.85rem;
+  border-radius:50%; background:var(--navy); color:#fff; font-weight:700; font-size:.92rem; display:grid; place-items:center; }
+.prose table { border-collapse:collapse; width:100%; font-size:.95rem; margin:1rem 0; }
+.prose th, .prose td { border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top; }
+.prose th { background:var(--sand); color:var(--navy); }
+.table-wrap { overflow-x:auto; }
+
+.callout { border-radius:12px; padding:16px 18px; margin:1.4rem 0; }
+.callout > :first-child { margin-top:0; }
+.callout > :last-child { margin-bottom:0; }
+.callout .label { display:block; font-weight:800; font-size:.85rem; letter-spacing:.04em; margin-bottom:.35rem; }
+.callout.safety { background:#fdecea; color:#6b1d14; }
+.callout.safety .label { color:#a3261a; }
+.callout.safety p, .callout.safety li { color:#6b1d14; }
+.callout.pro { background:#e8f0f8; color:#14304f; }
+.callout.pro .label { color:var(--navy); }
+.callout.pro p, .callout.pro li { color:#14304f; }
+.callout.tip { background:#fff4e3; color:#5a3a10; }
+.callout.tip .label { color:#8a4e0c; }
+.callout.tip p, .callout.tip li { color:#5a3a10; }
+
+.two-col { display:grid; grid-template-columns:1fr minmax(240px,320px); gap:clamp(24px,4vw,48px); align-items:start; }
+.side-card { background:#fff; border:1px solid var(--line); border-radius:14px; padding:20px; position:sticky; top:120px; }
+.side-card h3 { margin:0 0 .5rem; font-size:1.05rem; }
+.side-card p { margin:0 0 .8rem; font-size:.95rem; color:var(--soft); }
+.side-card .btn { width:100%; text-align:center; margin-top:.4rem; padding:12px 16px; }
+
+/* home cards */
+.services { background:#fff; border-block:1px solid var(--line); }
+.svc-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:14px; }
+.svc { display:block; border:1px solid var(--line); border-radius:14px; padding:18px 16px 16px; background:var(--cream);
+  text-decoration:none; color:inherit; transition:border-color .15s ease-out, transform .12s ease-out; }
+a.svc:hover { border-color:var(--copper-bright); transform:translateY(-2px); color:inherit; }
+.svc svg { width:34px; height:34px; stroke:var(--copper-bright); fill:none; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round; }
+.svc h3 { margin:.55rem 0 .25rem; font-size:1.02rem; }
+.svc p { margin:0; font-size:.9rem; color:var(--soft); }
+
+.about-wrap { display:grid; grid-template-columns:1.2fr .8fr; gap:clamp(24px,4vw,48px); align-items:start; }
+.about p { margin:0 0 1rem; max-width:62ch; }
+.trust, .parts-box { background:linear-gradient(135deg,var(--navy),#1f4a7a); color:#fff; border-radius:16px; padding:26px 26px 24px; }
+.trust p { margin:0 0 .8rem; font-size:1.25rem; line-height:1.45; font-weight:600; }
+.trust p strong { color:#f7b245; }
+.trust .who { font-size:.9rem; color:#bcd2e6; font-weight:400; margin:0; }
+.parts-box h2 { color:#fff; }
+.parts-box p, .parts-box li { color:#dbe6f2; }
+.parts-box strong { color:#fff; }
+.parts-box a { color:#f7b245; }
+.parts-box a.btn-primary { color:#fff; }
+.parts-box ol { padding-left:1.2rem; }
+.parts-box .fine { font-size:.88rem; color:#b9c8da; margin-bottom:0; }
+.parts-box .btn-primary { margin-top:.6rem; }
+
+.area { background:var(--sand); border-block:1px solid var(--line); }
+.chips { display:flex; flex-wrap:wrap; gap:8px; padding:0; margin:0; list-style:none; }
+.chips li { background:#fff; border:1px solid var(--line); border-radius:999px; padding:7px 15px; font-size:.92rem; }
+
+.cards { display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:14px; }
+.card { display:block; background:#fff; border:1px solid var(--line); border-radius:14px; padding:18px 18px 16px;
+  text-decoration:none; color:inherit; transition:border-color .15s ease-out, transform .12s ease-out; }
+.card:hover { border-color:var(--copper-bright); transform:translateY(-2px); color:inherit; }
+.card h3 { margin:.6rem 0 .3rem; font-size:1.05rem; line-height:1.3; }
+.card p { margin:0; font-size:.92rem; color:var(--soft); }
+.level-group h2 { margin-top:2.2rem; }
+
+.contact .cols { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:24px; }
+.contact h3 { font-size:1.02rem; margin:0 0 .5rem; }
+.contact a { text-decoration:none; border-bottom:1px solid #bcd3e4; }
+.contact a:hover { border-color:var(--copper); }
+.contact ul { list-style:none; margin:0; padding:0; color:var(--soft); font-size:.95rem; }
+.contact li { padding:2px 0; }
+.bignum { font-size:clamp(1.5rem,3vw,1.9rem); font-weight:800; margin:0; }
+.bignum a { border:0; color:var(--copper); }
+
+.cta-band { background:var(--navy); color:#fff; text-align:center; }
+.cta-band h2 { color:#fff; }
+.cta-band p { color:#dbe6f2; max-width:56ch; margin:0 auto 1.4rem; }
+.cta-band .btn-ghost { color:#fff; border-color:#fff; }
+.cta-band .btn-ghost:hover { background:rgba(255,255,255,.1); color:#fff; }
+.cta-band .cta-row { justify-content:center; }
+
+footer.site { background:#0f2742; color:#b9c8da; font-size:.88rem; padding:30px clamp(16px,4vw,40px); }
+footer.site .measure { display:flex; flex-wrap:wrap; gap:10px 28px; justify-content:space-between; }
+footer.site a { color:#e8eef5; text-decoration:none; border-bottom:1px solid #3c5a7d; }
+footer.site .links { display:flex; flex-wrap:wrap; gap:6px 16px; }
+::selection { background:var(--copper-bright); color:#fff; }
+
+@media (max-width:760px) {
+  .hero-inner, .about-wrap, .two-col { grid-template-columns:1fr; }
+  .side-card { position:static; }
+  .topbar .brand span { display:block; font-size:.85rem; }
+  .topbar a.mail { font-size:.88rem; }
+  .site-head { position:static; }
+  nav.main { flex-wrap:wrap; white-space:normal; overflow:visible; gap:0 16px; }
+  nav.main a { padding:9px 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior:auto; }
+  .btn, .svc, .card { transition:none; }
+}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HVACBusiness","name":"Copper Peak Heating & Cooling","url":"https://www.copperpeakair.com/","telephone":"+1-480-673-8311","email":"service@copperpeakair.com","image":"https://www.copperpeakair.com/images/copper-peak-logo-2026.jpg","slogan":"Your comfort. Our commitment.","description":"Family-owned heating and air conditioning repair, installation, maintenance, and indoor air quality service in Mesa and the Phoenix East Valley, Arizona.","areaServed":[{"@type":"City","name":"Mesa, AZ"},{"@type":"City","name":"Apache Junction, AZ"},{"@type":"City","name":"Buckeye, AZ"},{"@type":"City","name":"Chandler, AZ"},{"@type":"City","name":"Gilbert, AZ"},{"@type":"City","name":"Glendale, AZ"},{"@type":"City","name":"Gold Canyon, AZ"},{"@type":"City","name":"Peoria, AZ"},{"@type":"City","name":"Phoenix, AZ"},{"@type":"City","name":"Queen Creek, AZ"},{"@type":"City","name":"San Tan Valley, AZ"},{"@type":"City","name":"Scottsdale, AZ"},{"@type":"City","name":"Tempe, AZ"}],"openingHours":"Mo-Fr 07:00-17:00"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"AC Refrigerants in 2026: R-22, R-410A & the New A2L Systems Explained","description":"Which refrigerant does your AC use, and what do the 2025–2026 EPA changes mean for repairs and replacement in Arizona? R-22, R-410A, R-454B, R-32, the AIM Act phasedown, and what's next.","datePublished":"2026-10-25","dateModified":"October 2026","mainEntityOfPage":"https://www.copperpeakair.com/fyi/refrigerants/","author":{"@type":"Organization","name":"Copper Peak Heating & Cooling"},"publisher":{"@type":"Organization","name":"Copper Peak Heating & Cooling"}}</script>
+</head>
+<body>
+<header class="site-head">
+  <div class="topbar">
+    <a class="brand" href="/">COPPER PEAK <span>HEATING &amp; COOLING</span></a>
+    <div class="reach">
+      <a class="mail" href="mailto:service@copperpeakair.com">service@copperpeakair.com</a>
+      <a class="call" href="tel:+14806738311">Call (480) 673-8311</a>
+    </div>
+  </div>
+  <nav class="main" aria-label="Main"><a href="/heating/">Heating</a><a href="/cooling/">Cooling</a><a href="/air-quality/">Air Quality</a><a href="/diy/">DIY & Parts</a><a href="/fyi/" aria-current="page">FYI</a><a href="/service-area/">Service Area</a></nav>
+</header>
+<main>
+<div class="page-head">
+  <div class="measure">
+    <p class="crumbs"><a href="/fyi/">FYI</a></p>
+    <ul class="meta"><li>Updated October 2026</li></ul>
+    <h1>AC Refrigerants in 2026: R-22, R-410A &amp; the New A2L Systems Explained</h1>
+    <p class="lead">Refrigerant is the stuff that actually moves heat out of your house, and the rules about which refrigerants are allowed have changed a lot. Those changes show up directly on repair and replacement quotes. Here's what's going on, as of October 2026.</p>
+  </div>
+</div>
+<section>
+  <div class="measure two-col">
+    <article class="prose"><h2>The short version</h2>
+<ul>
+  <li><strong>Older systems (installed before about 2010)</strong> likely use <strong>R-22</strong>
+    ("Freon"). It hasn't been made or imported in the US since 2020, so the only supply is
+    recycled, and it's expensive.</li>
+  <li><strong>Most systems installed from about 2010 through 2024</strong> use
+    <strong>R-410A</strong> ("Puron"). These systems are legal to keep, repair, and recharge.</li>
+  <li><strong>New systems made since January 1, 2025</strong> use lower-impact refrigerants,
+    mainly <strong>R-454B</strong> or <strong>R-32</strong>.</li>
+</ul>
+<p>Not sure which you have? It's printed on the outdoor unit's label. Send us a photo and
+  we'll tell you.</p>
+
+<h2>Timeline</h2>
+<div class="table-wrap">
+<table>
+  <tr><th>When</th><th>What changed</th></tr>
+  <tr><td>2010</td><td>New AC equipment could no longer be made to use R-22. The industry
+    moved to R-410A.</td></tr>
+  <tr><td>Jan 1, 2020</td><td>US production and import of R-22 ended. Only recovered and
+    recycled R-22 remains for servicing older systems.</td></tr>
+  <tr><td>Dec 2020</td><td>Congress passed the <strong>AIM Act</strong>, phasing down HFC
+    refrigerants like R-410A by 85% by 2036.</td></tr>
+  <tr><td>Jan 1, 2023</td><td>New federal efficiency standards (<strong>SEER2</strong>). In the
+    Southwest, including Arizona, new split-system AC under 3.5 tons must be at least 14.3
+    SEER2, the strictest region in the country.</td></tr>
+  <tr><td>Jan 1, 2025</td><td>Under the EPA's Technology Transitions rule, new home AC and heat
+    pump systems must use refrigerants with a global warming potential under 700. That's the
+    switch to R-454B and R-32.</td></tr>
+  <tr><td>2025</td><td>A shortage of R-454B cylinders drove up refrigerant and install costs.
+    It had largely eased by late 2025.</td></tr>
+  <tr><td>May 21, 2026</td><td>The EPA <strong>removed the January 1, 2026 deadline</strong> for
+    installing leftover R-410A systems built before 2025 (effective July 2026). That
+    remaining inventory can still be installed until it runs out.</td></tr>
+</table>
+</div>
+
+<h2>What it means for you</h2>
+<h3>If you have an R-410A system</h3>
+<p>You're fine. Keeping it, repairing it, and recharging it are all legal. But R-410A supply is
+  shrinking on purpose: the HFC phasedown is in its 40% reduction step now (2024&ndash;2028) and
+  steps down to a 70% reduction in 2029. Expect refrigerant to keep getting more expensive.
+  If your system leaks, fixing the leak beats topping it off every summer.</p>
+
+<h3>If you have an R-22 system</h3>
+<p>A big refrigerant leak on an R-22 system is usually the moment to replace. Recycled R-22 is
+  pricey, and these systems are 15+ years old. A smaller repair that doesn't touch the
+  refrigerant can still make sense.</p>
+
+<h3>If you're replacing</h3>
+<ul>
+  <li><strong>New A2L systems</strong> (R-454B, R-32) are the new standard. A2L means
+    "mildly flammable": hard to ignite, and installed with extra safety measures by trained
+    techs. They're safe in your home.</li>
+  <li><strong>Leftover R-410A systems</strong> are still legal to install, thanks to the 2026
+    change, and can sometimes cost less up front. Weigh that against R-410A's rising service
+    costs over the system's life.</li>
+  <li><strong>Refrigerants can't be mixed.</strong> You can't put R-454B into an R-410A system.
+    A new outdoor unit usually means a matched indoor coil too.</li>
+  <li><strong>Efficiency</strong>: compare SEER2 ratings. Anything new sold for Arizona meets the
+    Southwest minimum, and higher SEER2 saves more in our long cooling season.</li>
+</ul>
+
+<h2>What's next</h2>
+<p>When the EPA loosened the rules in 2026, it noted that the resulting increase in HFC demand
+  "will likely cause future regulations restricting refrigerants." The bigger fixed date is the
+  HFC phasedown's step to a 70% reduction in 2029. We'll keep this page updated as rules change.</p>
+
+<div class="callout pro">
+  <span class="label">REFRIGERANT IS NEVER DIY</span>
+  <p>Buying and handling refrigerant for home AC requires EPA Section 608 certification.
+    If you hear hissing or see oily spots on the copper lines, call us. Plenty of other jobs
+    are fair game, though: see our <a href="/diy/">DIY guides</a>.</p>
+</div>
+
+<h2>Sources</h2>
+<ul>
+  <li><a href="https://www.achrnews.com/articles/166226-epa-removes-r-410a-installation-deadline">EPA Removes R-410A Installation Deadline (ACHR News)</a></li>
+  <li><a href="https://www.hklaw.com/en/insights/publications/2026/05/epa-finalizes-changes-to-technology-transitions-provisions">EPA Finalizes Changes to Technology Transitions Provisions (Holland &amp; Knight, May 2026)</a></li>
+  <li><a href="https://www.everycrsreport.com/files/2026-06-30_IF11779_e0593bab3dbfcc5cd098747b7654be93e4532b9e.html">Hydrofluorocarbon Phasedown: Background and Issues for Congress (CRS, June 2026)</a></li>
+  <li><a href="https://www.epa.gov/hfcs/regulatory-actions-technology-transitions">Technology Transitions regulatory actions (EPA)</a></li>
+  <li><a href="https://www.carrier.com/residential/en/us/homeowner-resources/minimum-efficiency-standards/">Minimum Efficiency Standards by region (Carrier)</a></li>
+  <li><a href="https://www.achrnews.com/blogs/17-opinions/post/165373-hardi-on-r-454b-the-crisis-is-over">HARDI on R-454B: the crisis is over (ACHR News)</a></li>
+</ul>
+</article>
+    <aside class="side-card">
+  <h3>Need it fixed today?</h3>
+  <p>Family owned, up-front pricing, and a one-year no-hassle guarantee on our work.</p>
+  <a class="btn btn-primary" href="tel:+14806738311">Call (480) 673-8311</a>
+  <a class="btn btn-ghost" href="mailto:service@copperpeakair.com">Email us</a>
+</aside>
+  </div>
+</section>
+<section class="cta-band">
+  <div class="measure">
+    <h2>Rather have a pro handle it?</h2>
+    <p>That's what we're here for. Call or text and you'll talk to a real person who knows your system.</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="tel:+14806738311">Call (480) 673-8311</a>
+      <a class="btn btn-ghost" href="mailto:service@copperpeakair.com">Email us</a>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site">
+  <div class="measure">
+    <span>&copy; 2026 Copper Peak Heating &amp; Cooling &middot; Mesa, Arizona</span>
+    <span class="links">
+      <a href="tel:+14806738311">(480) 673-8311</a>
+      <a href="mailto:service@copperpeakair.com">service@copperpeakair.com</a>
+      <a href="/service-area/">Service area</a>
+      <a href="/diy/">DIY &amp; Parts</a>
+    </span>
+    <span>Your comfort. Our commitment.</span>
+  </div>
+</footer>
+</body>
+</html>
