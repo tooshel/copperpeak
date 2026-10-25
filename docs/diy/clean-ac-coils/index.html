@@ -100,6 +100,16 @@ h3 { color:var(--navy); }
 .prose th, .prose td { border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top; }
 .prose th { background:var(--sand); color:var(--navy); }
 .table-wrap { overflow-x:auto; }
+.price-table { border-collapse:collapse; width:100%; min-width:640px; background:#fff; font-size:.96rem;
+  border:1px solid var(--line); border-radius:14px; overflow:hidden; margin:1rem 0; }
+.price-table th, .price-table td { padding:12px 14px; border-bottom:1px solid var(--line); text-align:left; vertical-align:top; }
+.price-table thead th { background:var(--navy); color:#fff; font-size:.9rem; }
+.price-table thead th.us { background:var(--copper); }
+.price-table td.us { background:#fff4e3; color:var(--copper); font-weight:800; }
+.price-table tbody tr:last-child td { border-bottom:0; }
+.price-table .sub { font-size:.85rem; color:var(--soft); font-weight:400; }
+.price-table td:nth-child(n+3) { color:var(--soft); }
+.price-table td:last-child a { font-weight:600; white-space:nowrap; }
 
 .callout { border-radius:12px; padding:16px 18px; margin:1.4rem 0; }
 .callout > :first-child { margin-top:0; }
@@ -206,7 +216,7 @@ footer.site .links { display:flex; flex-wrap:wrap; gap:6px 16px; }
       <a class="call" href="tel:+14806738311">Call (480) 673-8311</a>
     </div>
   </div>
-  <nav class="main" aria-label="Main"><a href="/heating/">Heating</a><a href="/cooling/">Cooling</a><a href="/air-quality/">Air Quality</a><a href="/diy/" aria-current="page">DIY & Parts</a><a href="/fyi/">FYI</a><a href="/service-area/">Service Area</a></nav>
+  <nav class="main" aria-label="Main"><a href="/heating/">Heating</a><a href="/cooling/">Cooling</a><a href="/air-quality/">Air Quality</a><a href="/pricing/">Pricing</a><a href="/diy/" aria-current="page">DIY & Parts</a><a href="/fyi/">FYI</a><a href="/service-area/">Service Area</a></nav>
 </header>
 <main>
 <div class="page-head">
@@ -323,6 +333,7 @@ footer.site .links { display:flex; flex-wrap:wrap; gap:6px 16px; }
       <a href="tel:+14806738311">(480) 673-8311</a>
       <a href="mailto:service@copperpeakair.com">service@copperpeakair.com</a>
       <a href="/service-area/">Service area</a>
+      <a href="/pricing/">Pricing</a>
       <a href="/diy/">DIY &amp; Parts</a>
     </span>
     <span>Your comfort. Our commitment.</span>
